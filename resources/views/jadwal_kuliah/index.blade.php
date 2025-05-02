@@ -80,7 +80,7 @@
         e.preventDefault();
         Swal.fire({
             title: 'Yakin ingin menghapus?',
-            text: "data yang terkait akan dihapus!, Dan tidak dapat dikembalikan!",
+            text: "data yang terkait akan dihapus! Dan tidak dapat dikembalikan!",
             icon: 'warning',
             showCancelButton: true,
             confirmButtonText: 'Hapus',
