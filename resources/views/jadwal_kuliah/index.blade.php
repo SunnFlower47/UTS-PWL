@@ -44,7 +44,7 @@
             <a href="{{ route('jadwal_kuliah.edit', $jadwal->id) }}" class="btn btn-sm btn-warning">Edit</a>
             <form action="{{ route('jadwal_kuliah.destroy', $jadwal->id) }}" method="POST" style="display:inline;">
                 @csrf @method('DELETE')
-                <button class="btn btn-sm btn-danger" onclick="return confirm('Yakin hapus?')">Hapus</button>
+                <button class="btn btn-sm btn-danger">Hapus</button>
             </form>
         </td>
     </tr>
@@ -80,7 +80,7 @@
         e.preventDefault();
         Swal.fire({
             title: 'Yakin ingin menghapus?',
-            text: "Aksi ini tidak bisa dibatalkan!",
+            text: "data yang terkait akan dihapus!, Dan tidak dapat dikembalikan!",
             icon: 'warning',
             showCancelButton: true,
             confirmButtonText: 'Hapus',
