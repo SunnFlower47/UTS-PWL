@@ -16,6 +16,6 @@
             <p><strong>Jam:</strong> {{ \Carbon\Carbon::parse($jadwal->jam_mulai)->format('H:i') }} - {{ \Carbon\Carbon::parse($jadwal->jam_selesai)->format('H:i') }}</p>
         </div>
     </div>
-    <a href="{{ route('jadwal_kuliah.index') }}" class="btn btn-secondary mt-3">Kembali</a>
+    <a href="{{ route('jadwal_kuliah.index') }}" class="btn btn-secondary mt-3">Back</a>
 </div>
 @endsection

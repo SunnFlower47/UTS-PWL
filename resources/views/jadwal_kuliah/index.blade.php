@@ -44,7 +44,7 @@
             <a href="{{ route('jadwal_kuliah.edit', $jadwal->id) }}" class="btn btn-sm btn-warning">Edit</a>
             <form action="{{ route('jadwal_kuliah.destroy', $jadwal->id) }}" method="POST" style="display:inline;">
                 @csrf @method('DELETE')
-                <button class="btn btn-sm btn-danger">Hapus</button>
+                <button class="btn btn-sm btn-danger">Deete</button>
             </form>
         </td>
     </tr>

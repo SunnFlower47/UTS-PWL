@@ -86,7 +86,7 @@
                     <a class="nav-link" href="{{ route('jadwal_kuliah.index') }}">Beranda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('jadwal_kuliah.create') }}">Tambah Jadwal</a>
+                    <a class="nav-link" href="#">Jadwal Ujian</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
@@ -94,10 +94,9 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-dark">
                         <li><a class="dropdown-item" href="#">Profile</a></li>
-                        <li><a class="dropdown-item" href="#">jawal ujian</a></li>
                         <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Setings</a></li>
                         <li><a class="dropdown-item" href="#">logout</a></li>
-                        <li><a class="dropdown-item" href="#">Pengaturan</a></li>
                     </ul>
                 </li>
                 <li class="nav-item mt-1">

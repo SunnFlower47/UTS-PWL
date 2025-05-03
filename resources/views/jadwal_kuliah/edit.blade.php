@@ -8,7 +8,7 @@
         @method('PUT')
         @include('jadwal_kuliah._form', ['jadwal' => $jadwal])
         <button type="submit" class="btn btn-primary">Update</button>
-        <a href="{{ route('jadwal_kuliah.index') }}" class="btn btn-secondary">Kembali</a>
+        <a href="{{ route('jadwal_kuliah.index') }}" class="btn btn-danger">Cancel</a>
     </form>
 </div>
 @endsection
